@@ -23,6 +23,18 @@ requiring Docker.
 
 [Try the Hugging Face Space](https://huggingface.co/spaces/kkishor191/ContextForge)
 
+## Live demo
+
+- Application: https://huggingface.co/spaces/kkishor191/ContextForge
+- MCP endpoint: https://kkishor191-contextforge.hf.space/gradio_api/mcp/
+
+Example prompt:
+
+> Use ContextForge to record an architectural decision titled “Use SQLite for the MVP,” including the rationale and Codex as the source.
+
+The hosted Space currently demonstrates the original shared-memory schema (v1). This repository contains the newer tenant-isolated schema (v2), which must be deployed and verified before tenant isolation is described as active in the live demo.
+
+
 ## Why it exists
 
 AI coding sessions often lose important decisions when a conversation ends or
